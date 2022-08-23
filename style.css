@@ -1,0 +1,140 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.top-banner{
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 600px;
+    color: #ffffff;
+    padding-top: 200px;
+    margin-bottom: 70px;
+}
+.top-banner h1{
+    font-size: 60px;
+    line-height: 20px;
+    font-weight: 800;
+}
+.top-banner p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.donate-button{
+    text-decoration: none;
+    color: white;
+    background-color: salmon;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.donate-section{
+    text-align: center
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.donate-price{
+    background-color: lightblue;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: 707070;
+}
+#auto-select{
+    border: 5px solid orange;
+    background-color: lightblue;
+    color: orange;
+}
+.donate-section hr{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.donate-section h1{
+    font-size: 40px;
+}
+.donate-section input{
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.donate-plan{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-plan h1{
+    font-size: 40px;
+}
+.cards-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin-left: 30px;
+    padding-top: 40px;
+}
+#selector{
+    background-color: rgba(255, 244, 214, 1);
+}
+.donate-plan p{
+    color: rgba(112, 112, 112, 1);
+}
+.update-section{
+    text-align: center;
+    margin-top: 100px;
+}
+.update-section h1{
+    font-size: 40px;
+}
+.form{
+    margin-top: 50px;
+    width: 800px;
+    height: 100px;
+    background-color: rgba(255, 244, 214, 1);
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.form input{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+}
+.campaign{
+    text-align: center;
+    margin-top: 80px;
+}
+.campaign h1{
+    font-size: 40px;
+}
+.images-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.images-section img{
+    width: 80%;
+    height: 80%;
+}
